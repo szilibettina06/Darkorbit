@@ -30,6 +30,12 @@
     margin-right: 20%;
     text-align: left;
 }
+video{
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
 .color-background{
     background-color: rgb(99, 96, 96);
 }
