@@ -1,8 +1,14 @@
-.nav-background{
+.index-background{
     background-image: url("./index-background.jpg");
     height: 100vh;
     background-position: center;
     background-size: cover;
+}
+.nav-background{
+        background-image: url("./nav-background.jpg");
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
 }
 .text{
     color: #ffffff;
