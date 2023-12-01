@@ -6,7 +6,7 @@
 }
 .nav-background{
         background-image: url("./nav-background.png");
-        height: 100vh;
+        height: auto;
         background-position: center;
         background-size: cover;
 }
@@ -31,9 +31,13 @@
     text-align: left;
 }
 video{
-    margin-top: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 540px;
+    height: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -220px;
     
 }
 .color-background{
