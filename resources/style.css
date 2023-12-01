@@ -10,6 +10,12 @@
         background-position: center;
         background-size: cover;
 }
+.information-background{
+    background-image: url("./information-background.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
 .text{
     color: #ffffff;
     margin-top: 40px;
