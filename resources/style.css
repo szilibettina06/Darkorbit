@@ -4,3 +4,10 @@
     background-position: center;
     background-size: cover;
 }
+.text{
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
