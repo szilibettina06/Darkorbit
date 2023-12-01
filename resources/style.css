@@ -5,9 +5,22 @@
     background-size: cover;
 }
 .text{
-    color: #fff;
+    color: #ffffff;
     margin-top: 40px;
     margin-left: 20%;
     margin-right: 20%;
     text-align: left;
+}
+.text2{
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.color-background{
+    background-color: rgb(99, 96, 96);
+    height: 100vh;
+}
+.opacity{
+    opacity: 0.5;
+    background-color: rgba(0,0,0);
 }
