@@ -11,10 +11,12 @@
     margin-right: 20%;
     text-align: left;
 }
-.text2{
+.text-options{
+    color: #ffffff;
     margin-top: 40px;
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 .color-background{
     background-color: rgb(99, 96, 96);
