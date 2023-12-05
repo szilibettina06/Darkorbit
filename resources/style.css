@@ -12,9 +12,9 @@
 }
 .information-background{
     background-image: url("./information-background.jpg");
-    height: auto; 
+    height: auto;
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
 }
 .text{
     color: #ffffff;
