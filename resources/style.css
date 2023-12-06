@@ -1,3 +1,7 @@
+html,body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .index-background{
     background-image: url("./index-background.jpg");
     height: 100vh;
