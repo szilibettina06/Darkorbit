@@ -3,19 +3,19 @@ html,body{
 }
 
 .index-background{
-    background-image: url("./index-background.jpg");
+    background-image: url("../resources/index-background.jpg");
     height: auto;
     background-position: center;
     background-size: cover;
 }
 .nav-background{
-        background-image: url("./nav-background.png");
+        background-image: url("../resources/nav-background.png");
         height: 100vh;
         background-position: center;
         background-size: cover;
 }
 .information-background{
-    background-image: url("./information-background.jpg");
+    background-image: url("../resources/information-background.jpg");
     height: auto;
     background-position: center;
     /* background-size: cover; */
