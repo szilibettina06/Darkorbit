@@ -4,7 +4,7 @@ html,body{
 
 .index-background{
     background-image: url("../resources/index-background.jpg");
-    height: auto;
+    height: 100vh;
     background-position: center;
     background-size: cover;
 }
@@ -27,7 +27,7 @@ html,body{
     margin-right: 20%;
     text-align: left;
 }
-.text-options{
+#text-options{
     color: #ffffff;
     margin-top: 40px;
     margin-left: 20%;
