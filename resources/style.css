@@ -31,11 +31,13 @@ html,body{
 .text-options{
     color: #ffffff;
     margin-top: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: left;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    text-align: center;
 }
-
+#li{
+    list-style: none;
+}
 .line{
     color: #ffffff;
    
