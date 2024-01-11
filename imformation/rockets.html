@@ -22,6 +22,7 @@
     <script src="../resources/script.js"></script>
   </head>
   <body>
+    <script src="../resources/script.js"></script>
     <section class="information-background">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -132,17 +133,34 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="Keresés">
-              <input
-                id="search"
-                type="Keresés"
-                placeholder="Keresés"
-                aria-label="Keresés"
-              />
-              <button class="btn btn-outline" type="submit">
-                <span class="material-symbols-outlined"> search </span>
-              </button>
-            </form>
+            <div class="search-bar">
+              <form class="d-flex" role="Keresés">
+                <input
+                  id="search"
+                  type="Keresés"
+                  placeholder="Keresés"
+                  list="search-suggestions"
+                  aria-label="Keresés"
+                />
+                <button class="btn btn-outline" type="submit">
+                  <span class="material-symbols-outlined"> search </span>
+                </button>
+              </form>
+              <datalist id="search-suggestions">
+                <option value="R-310"></option>
+                <option value="PLT-2026"></option>
+                <option value="PLT-2021"></option>
+                <option value="PLT-3030"></option>
+                <option value="​PLD-8"></option>
+                <option value="DCR-250"></option>
+                <option value="​WIZ-X"></option>
+                <option value="​R-IC3"></option>
+                <option value="SR-5"></option>
+                <option value="K-300M"></option>
+                <option value="SP-100X (PAJZSTÖRŐ RAKÉTA)"></option>
+                <option value="EMP-01"></option>
+              </datalist>
+            </div>
           </div>
         </div>
       </nav>
@@ -299,7 +317,7 @@
             </div>
 
             <div>
-              <ul  id="li" >
+              <ul id="li">
                 <h5>EMP-01</h5>
                 <img src="../resources/rockets/EMP-01.png" alt="EMP-01" />
                 <li>

@@ -112,3 +112,7 @@ video{
     text-align: center;
     
 }
+.search-bar [list]::-webkit-list-button,
+.search-bar [list]::-webkit-calendar-picker-indicator {
+    display: none !important;
+}
