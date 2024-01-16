@@ -22,9 +22,9 @@ html,body{
 }
 #information-background {
     background-image: url("../resources/information-background.jpg");
-    height: 100vh;
+    height: auto;
     background-position: center;
-    background-size: cover; 
+    /* background-size: cover;  */
 }
 .text{
     color: #ffffff;
