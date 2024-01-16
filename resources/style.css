@@ -144,3 +144,10 @@ video{
     background-color: white;
     color: black;
 }
+
+#img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    
+}
