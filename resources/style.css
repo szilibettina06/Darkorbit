@@ -151,12 +151,6 @@ video{
     color: black;
 }
 
-#img {
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    
-}
 #nav-text{
     background-color: rgba(0, 0, 0, 35%);
 }
