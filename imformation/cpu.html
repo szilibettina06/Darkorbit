@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../resources/style.css" />
   </head>
   <body>
-    <section class="information-background">
+    <section id="information-background">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html"
@@ -80,7 +80,9 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="../imformation/cpu.html">CPU-k</a>
+                    <a class="dropdown-item" href="../imformation/cpu.html"
+                      >CPU-k</a
+                    >
                   </li>
                   <li>
                     <a
@@ -118,9 +120,14 @@
                       >Megbízok</a
                     >
                   </li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" target="_blank" href="../imformation/regulations.html">Szabályzat</a>
+                    <a
+                      class="dropdown-item"
+                      target="_blank"
+                      href="../imformation/regulations.html"
+                      >Szabályzat</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -141,61 +148,103 @@
       </nav>
       <div class="text-options">
         <h4>Hasznos CPU-k:</h4>
-        <ul  id="li" >
-          <li>
-            <h5>Rakétaturbó (RDK-T01)</h5>
-            <img src="../resources/cpuk/RDK-T01.png" alt="RDK-T01" />
-            <br />
-            <span>Megduplázza a rakéták kilövési sebességét.</span>
-          </li>
-          <li>
-            <h5>Automata rakéta CPU (AROL-X)</h5>
-            <img src="../resources/cpuk/AROL-X.png" alt="AROL-X" />
-            <br />
-            <span
-              >Lézertámadás közben a kiválasztott rakétatípust automatikusan a
-              lehető leggyorsabban lövi ki folyamatosan. Az AROL-X-CPU-t
-              beépítés után a csillagtérképen a „CPU-k” menüpontban lehet
-              aktiválni.</span
-            >
-          </li>
-          <li>
-            <h5>Labor CPU (nc-awr-CPU)</h5>
-            <img src="../resources/cpuk/nc-awr-CPU.png" alt="nc-awr-CPU" />
-            <br />
-            <span
-              >A lézert és a rakétákat az űrhajó rakterében tárolt nyersanyaggal
-              tölti fel.</span
-            >
-          </li>
-          <li>
-            <h5>Labor CPU 2 (nc-awr2-CPU )</h5>
-            <img src="../resources/cpuk/nc-awr2-CPU.png" alt="nc-awr2-CPU" />
-            <br />
-            <span
-              >Csak a rakétákat tölti fel az űrhajó rakterében tárolt
-              nyersanyaggal.</span
-            >
-          </li>
-          <li>
-            <h5>Rakéta CPU (RB-CPU)</h5>
-            <img src="../resources/cpuk/RB-CPU.png" alt="RB-CPU" />
-            <br />
-            <span
-              >Automatikusan megvásárol 500 rakétát, ha 100-nál kevesebb van a
-              fedélzeten.</span
-            >
-          </li>
-          <li>
-            <h5>Generátor gyorsító CPU (NC-ACB-CPU)</h5>
-            <img src="../resources/cpuk/NC-ACB-CPU.png" alt="NC-ACB-CPU" />
-            <br />
-            <span
-              >Automatikusan fejleszti a generátorokat a laborban található
-              nyersanyaggal.</span
-            >
-          </li>
-        </ul>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img
+                  id="img"
+                  src="../resources/cpuk/RDK-T01.png"
+                  alt="RDK-T01"
+                />
+                <br />
+                <h5 class="card-title">Rakétaturbó (RDK-T01)</h5>
+                <p class="card-text">
+                  Megduplázza a rakéták kilövési sebességét.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img id="img" src="../resources/cpuk/AROL-X.png" alt="AROL-X" />
+                <br />
+                <h5 class="card-title">Automata rakéta CPU (AROL-X)</h5>
+                <p class="card-text">
+                  Lézertámadás közben a kiválasztott rakétatípust automatikusan
+                  a lehető leggyorsabban lövi ki folyamatosan. Az AROL-X-CPU-t
+                  beépítés után a csillagtérképen a „CPU-k” menüpontban lehet
+                  aktiválni.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img
+                  id="img"
+                  src="../resources/cpuk/nc-awr-CPU.png"
+                  alt="nc-awr-CPU"
+                />
+                <br />
+                <h5 class="card-title">Labor CPU (nc-awr-CPU)</h5>
+                <p class="card-text">
+                  A lézert és a rakétákat az űrhajó rakterében tárolt
+                  nyersanyaggal tölti fel.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img
+                  id="img"
+                  src="../resources/cpuk/nc-awr2-CPU.png"
+                  alt="nc-awr2-CPU"
+                />
+                <br />
+                <h5 class="card-title">Labor CPU 2 (nc-awr2-CPU )</h5>
+                <p class="card-text">
+                  Csak a rakétákat tölti fel az űrhajó rakterében tárolt
+                  nyersanyaggal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img id="img" src="../resources/cpuk/RB-CPU.png" alt="RB-CPU" />
+                <br />
+                <h5 class="card-title">Rakéta CPU (RB-CPU)</h5>
+                <p class="card-text">
+                  Automatikusan megvásárol 500 rakétát, ha 100-nál kevesebb van
+                  a fedélzeten.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img
+                  id="img"
+                  src="../resources/cpuk/NC-ACB-CPU.png"
+                  alt="NC-ACB-CPU"
+                />
+                <br />
+                <h5 class="card-title">Generátor gyorsító CPU (NC-ACB-CPU)</h5>
+                <p class="card-text">
+                  Automatikusan fejleszti a generátorokat a laborban található
+                  nyersanyaggal
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <script

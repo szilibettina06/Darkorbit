@@ -20,6 +20,12 @@ html,body{
     background-position: center;
     /* background-size: cover; */
 }
+#information-background {
+    background-image: url("../resources/information-background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover; 
+}
 .text{
     color: #ffffff;
     margin-top: 40px;
