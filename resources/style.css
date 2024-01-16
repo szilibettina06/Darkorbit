@@ -116,3 +116,7 @@ video{
 .search-bar [list]::-webkit-calendar-picker-indicator {
     display: none !important;
 }
+.nav_img{
+    height: 95vh;
+    width: 100vh;
+}
