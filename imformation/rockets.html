@@ -138,7 +138,59 @@
                 </ul>
               </li>
             </ul>
-            <div class="search-bar">
+            <div class="dropdown">
+              <button
+                class="btn btn-search dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#1">R-310</a></li>
+                <li>
+                  <a class="dropdown-item" href="#1">PLT-2026</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#1">PLT-2021</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#2">PLT-3030</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#2">PLD-8</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#2">DCR-250</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#3">WIZ-X</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#3">​R-IC3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#3">SR-5</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#4">K-300M</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#4"
+                    >SP-100X (PAJZSTÖRŐ RAKÉTA)</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#4">EMP-01</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a href="#5" class="dropdown-item">Hasznos Informaciók..</a>
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="search-bar">
               <form class="d-flex" role="Keresés">
                 <input
                   id="search"
@@ -149,23 +201,9 @@
                 />
                 <button class="btn btn-outline" type="submit">
                   <span class="material-symbols-outlined"> search </span>
-                </button>
+                </button> 
               </form>
-              <datalist id="search-suggestions">
-                <option value="R-310"></option>
-                <option value="PLT-2026"></option>
-                <option value="PLT-2021"></option>
-                <option value="PLT-3030"></option>
-                <option value="​PLD-8"></option>
-                <option value="DCR-250"></option>
-                <option value="​WIZ-X"></option>
-                <option value="​R-IC3"></option>
-                <option value="SR-5"></option>
-                <option value="K-300M"></option>
-                <option value="SP-100X (PAJZSTÖRŐ RAKÉTA)"></option>
-                <option value="EMP-01"></option>
-              </datalist>
-            </div>
+            </div>-->
           </div>
         </div>
       </nav>
@@ -178,7 +216,7 @@
         <h4>Rakétafajták:</h4>
         <br />
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
+          <div id="1" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -196,7 +234,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="1" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -214,7 +252,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="1" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -233,7 +271,8 @@
               </div>
             </div>
           </div>
-          <div class="col">
+
+          <div id="2" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -253,7 +292,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="2" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -273,7 +312,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="2" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -291,7 +330,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="3" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -305,10 +344,14 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="3" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
-                <img class="img-thumbnail" src="../resources/Noimg.jpg" alt="DCR-250" />
+                <img
+                  class="img-thumbnail"
+                  src="../resources/Noimg.jpg"
+                  alt="DCR-250"
+                />
                 <br />
                 <h5 class="card-title">​R-IC3</h5>
                 <p class="card-text">
@@ -318,10 +361,14 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="3" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
-                <img class="img-thumbnail" src="../resources/Noimg.jpg" alt="DCR-250" />
+                <img
+                  class="img-thumbnail"
+                  src="../resources/Noimg.jpg"
+                  alt="DCR-250"
+                />
                 <br />
                 <h5 class="card-title">SR-5</h5>
                 <p class="card-text">
@@ -339,10 +386,14 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="4" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
-                <img class="img-thumbnail" src="../resources/Noimg.jpg" alt="DCR-250" />
+                <img
+                  class="img-thumbnail"
+                  src="../resources/Noimg.jpg"
+                  alt="DCR-250"
+                />
                 <br />
                 <h5 class="card-title">K-300M</h5>
                 <p class="card-text">
@@ -361,10 +412,14 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="4" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
-                <img class="img-thumbnail" src="../resources/Noimg.jpg" alt="DCR-250" />
+                <img
+                  class="img-thumbnail"
+                  src="../resources/Noimg.jpg"
+                  alt="DCR-250"
+                />
                 <br />
                 <h5 class="card-title">SP-100X (PAJZSTÖRŐ RAKÉTA)</h5>
                 <p class="card-text">
@@ -375,7 +430,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div id="4" class="col">
             <div class="card text-white bg-transparent">
               <div class="card-body">
                 <img
@@ -399,7 +454,7 @@
           </div>
         </div>
         <br />
-        <div class="card text-white bg-transparent text-center">
+        <div id="5" class="card text-white bg-transparent text-center">
           <hr class="line" />
           <div class="card-header">Hasznos Informaciók</div>
           <div class="card-body">
