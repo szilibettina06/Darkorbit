@@ -126,9 +126,9 @@ video{
     height: 95vh;
     width: 100vh;
 }
-.button {
+/* .button {
     background-color: #04AA6D;
-    /* Green */
+     Green 
     border: none;
     color: white;
     padding: 16px 32px;
@@ -140,15 +140,22 @@ video{
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 50px;
-}
-.button-black {
-    background-color: black;
+} 
+*/
+.btn-black {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
     color: white;
-    border: 2px solid black;
+    border: 2px solid white;
+    border-radius: 50px;
 }
-.button-black:hover {
-    background-color: white;
-    color: black;
+.btn-black:hover {
+    border: 2px solid grey;
+    background-color: transparent;
+    color: grey;
+    border-radius: 50px;
 }
 
 #nav-text{
