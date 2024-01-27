@@ -97,7 +97,9 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="../imformation/guns.html">Fegyverek</a>
+                    <a class="dropdown-item" href="../imformation/guns.html"
+                      >Fegyverek</a
+                    >
                   </li>
                   <li>
                     <a
@@ -130,7 +132,62 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="Keresés">
+            <div class="dropdown">
+              <button
+                class="btn btn-search dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Keresés...
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#1">R-310</a></li>
+                <li>
+                  <a class="dropdown-item" href="#1">PLT-2026</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#1">PLT-2021</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#2">PLT-3030</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#2">PLD-8</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#2">DCR-250</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#3">WIZ-X</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#3">​R-IC3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#3">SR-5</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#4">K-300M</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#4"
+                    >SP-100X (PAJZSTÖRŐ RAKÉTA)</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#4">EMP-01</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a href="#5" class="dropdown-item">Hasznos Informaciók..</a>
+                </li>
+              </ul>
+            </div>
+            <!-- <form class="d-flex" role="Keresés">
               <input
                 id="search"
                 type="Keresés"
@@ -140,7 +197,7 @@
               <button class="btn btn-outline" type="submit">
                 <span class="material-symbols-outlined"> search </span>
               </button>
-            </form>
+            </form> -->
           </div>
         </div>
       </nav>
@@ -152,39 +209,53 @@
         <br />
         <h5>Milyen lézerfegyverek vannak?</h5>
         <br />
-        <div>
-          <h6>LF-1</h6>
-          <img class="img-thumbnail" src="" alt="LF-1">
-          <p>
-            Károkozás: max. 65 pont/lövés/db <br />
-            Ár: 10,000 kredit <br />
-            Megszerezhető az Üzlet/Fegyverek menü alat
-          </p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img class="img-thumbnail" src="" alt="LF-1" />
+                <br />
+                <h5 class="card-title">LF-1</h5>
+                <p class="card-text">
+                  Károkozás: max. 65 pont/lövés/db <br />
+                  Ár: 10,000 kredit <br />
+                  Megszerezhető az Üzlet/Fegyverek menü alat
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img class="img-thumbnail" src="" alt="MP-1" />
+                <h5 class="card-title">MP-1</h5>
+                <p class="card-text">
+                  Károkozás: max. 70 pont/lövés/db <br />
+                  Ár: 40,000 kredit <br />
+                  Megszerezhető az Üzlet/Fegyverek menü alatt
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-white bg-transparent">
+              <div class="card-body">
+                <img class="img-thumbnail" src="" alt="LF-2" />
+                <h5 class="card-title">LF-2</h5>
+                <p class="card-text">
+                  Károkozás: max. 140 pont/lövés/db <br />
+                  Ár: 5000 uridium <br />
+                  Megszerezhető az Üzlet/Fegyverek menü alatt
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <br />
-        <div>
-          <h6>MP-1</h6>
-          <img class="img-thumbnail" src="" alt="MP-1">
-          <p>
-            Károkozás: max. 70 pont/lövés/db <br />
-            Ár: 40,000 kredit <br />
-            Megszerezhető az Üzlet/Fegyverek menü alatt
-          </p>
-        </div>
-        <br />
-        <div>
-          <h6>LF-2</h6>
-          <img class="img-thumbnail" src="" alt="LF-2">
-          <p>
-            Károkozás: max. 140 pont/lövés/db <br />
-            Ár: 5000 uridium <br />
-            Megszerezhető az Üzlet/Fegyverek menü alatt
-          </p>
-        </div>
-        <br />
+
+       
         <div>
           <h6>LF-3</h6>
-          <img class="img-thumbnail" src="" alt="LF-3">
+          <img class="img-thumbnail" src="" alt="LF-3" />
           <p>
             árokozás: max. 175 pont/lövés/db <br />
             +15% NPC-sebzést <br />
@@ -194,187 +265,210 @@
             Összeszerelhető. Költség: 2 H-HFC, 1H-NCA
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>LF-4</h6>
-          <img class="img-thumbnail" src="" alt="LF-4">
+          <img class="img-thumbnail" src="" alt="LF-4" />
           <p>
-          Károkozás: max. 200 pont/lövés/db <br>
-          Ár: Nem vásárolható meg az Üzletben <br>
-          Található: <br>
-          Kalózláda <br>
-          Epsilon kapu <br>
-          Kappa kapu <br>
-          Hades kapu <br>
-        </p>
+            Károkozás: max. 200 pont/lövés/db <br />
+            Ár: Nem vásárolható meg az Üzletben <br />
+            Található: <br />
+            Kalózláda <br />
+            Epsilon kapu <br />
+            Kappa kapu <br />
+            Hades kapu <br />
+          </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>Spectral Lancer I</h6>
-          <img class="img-thumbnail" src="" alt="Spectral Lancer I">
+          <img class="img-thumbnail" src="" alt="Spectral Lancer I" />
           <p>
-          Károkozás: NPC-re 130 pont/lövés/db <br>
-          játékosra 85 pont/lövés/db <br>
-          Ár: 50,000 kredit <br>
-          Megszerezhető az Üzlet/Fegyverek menü alatt
-        </p>
-        </div>
-        <br>
-        <div>
-          <h6>Spectral Lancer II</h6>
-          <img class="img-thumbnail" src="" alt="Spectral Lancer II">
-          <p>
-            Károkozás: NPC-re 165 pont/lövés/db <br>
-            játékosra 90 pont/lövés/db <br>
-            Ár: 300,000 kredit <br>
+            Károkozás: NPC-re 130 pont/lövés/db <br />
+            játékosra 85 pont/lövés/db <br />
+            Ár: 50,000 kredit <br />
             Megszerezhető az Üzlet/Fegyverek menü alatt
           </p>
         </div>
-        <br>
+        <br />
         <div>
-          <h6>Spectral Lancer III</h6>
-          <img class="img-thumbnail" src="" alt="Spectral Lancer III">
+          <h6>Spectral Lancer II</h6>
+          <img class="img-thumbnail" src="" alt="Spectral Lancer II" />
           <p>
-          Károkozás: NPC-re 185 pont/lövés/db <br>
-          játékosra 140 pont/lövés/db <br>
-          Összeszerelhető. Költség: 2 H-HFC, 1 H-NCA
-        </p>
-        </div> 
-        <br>
-        <div>
-          <h6>Lézerszóró 1</h6>
-          <img class="img-thumbnail" src="" alt="Lézerszóró 1">
-          <p>
-            Károkozás: 125 pont/lövés/db, 5 másodpercenként további 38-at sebez, viszont a hatótáv 25%-al csökken <br>
-            Ár: 3000 uridium <br>
-            Megszerezhető az Üzlet/Fegyverek menü alatt 
+            Károkozás: NPC-re 165 pont/lövés/db <br />
+            játékosra 90 pont/lövés/db <br />
+            Ár: 300,000 kredit <br />
+            Megszerezhető az Üzlet/Fegyverek menü alatt
           </p>
         </div>
-        <br>
+        <br />
         <div>
-          <h6>Lézerszóró 2</h6>
-          <img class="img-thumbnail" src="" alt="Lézerszóró 2">
+          <h6>Spectral Lancer III</h6>
+          <img class="img-thumbnail" src="" alt="Spectral Lancer III" />
           <p>
-            Károkozás: 142 pont/lövés/db, 5 másodpercenként további 75-öt sebez, viszont a hatótáv 25%-al csökken <br>
+            Károkozás: NPC-re 185 pont/lövés/db <br />
+            játékosra 140 pont/lövés/db <br />
             Összeszerelhető. Költség: 2 H-HFC, 1 H-NCA
           </p>
         </div>
-        <br>
+        <br />
+        <div>
+          <h6>Lézerszóró 1</h6>
+          <img class="img-thumbnail" src="" alt="Lézerszóró 1" />
+          <p>
+            Károkozás: 125 pont/lövés/db, 5 másodpercenként további 38-at sebez,
+            viszont a hatótáv 25%-al csökken <br />
+            Ár: 3000 uridium <br />
+            Megszerezhető az Üzlet/Fegyverek menü alatt
+          </p>
+        </div>
+        <br />
+        <div>
+          <h6>Lézerszóró 2</h6>
+          <img class="img-thumbnail" src="" alt="Lézerszóró 2" />
+          <p>
+            Károkozás: 142 pont/lövés/db, 5 másodpercenként további 75-öt sebez,
+            viszont a hatótáv 25%-al csökken <br />
+            Összeszerelhető. Költség: 2 H-HFC, 1 H-NCA
+          </p>
+        </div>
+        <br />
         <div>
           <h6>Lézerszóró 3</h6>
-          <img class="img-thumbnail" src="" alt="Lézerszóró 3">
+          <img class="img-thumbnail" src="" alt="Lézerszóró 3" />
           <p>
-            Károkozás: 150 pont/lövés/db, 5 másodpercenként további 150-ot sebez, viszont a hatótáv 25%-al csökken <br>
+            Károkozás: 150 pont/lövés/db, 5 másodpercenként további 150-ot
+            sebez, viszont a hatótáv 25%-al csökken <br />
             Összeszerelhető. Költség: 2 H-MT, 1 H-NCO, 100 Aurus, 1200 Chromin
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>LF-4-Instabil</h6>
-          <img class="img-thumbnail" src="" alt="LF-4-Instabil">
+          <img class="img-thumbnail" src="" alt="LF-4-Instabil" />
           <p>
-            Károkozás: 220 pont/lövés/db <br>
-            Varianciaérték: 42% <br>
+            Károkozás: 220 pont/lövés/db <br />
+            Varianciaérték: 42% <br />
             Összeszerelhető. Költség: 2 H-MT, 1 H-NCO, 50 Aurus, 1200 Chromin
           </p>
-        </div> 
-        <br>
+        </div>
+        <br />
         <div>
           <h6>LF-4-HyperPlasmoid</h6>
-          <img class="img-thumbnail" src="" alt="LF-4-HyperPlasmoid">
+          <img class="img-thumbnail" src="" alt="LF-4-HyperPlasmoid" />
           <p>
-            Károkozás: 225 pont/lövés/db <br>
-            Bónusz: 0,5% ÉP-bónusz lézerenként <br>
-            Összeszerelhető. Költség: 160 Kihalon; 300 Tetratrin; 350 Bifenon; 1 LF-4; 400 Logfile
+            Károkozás: 225 pont/lövés/db <br />
+            Bónusz: 0,5% ÉP-bónusz lézerenként <br />
+            Összeszerelhető. Költség: 160 Kihalon; 300 Tetratrin; 350 Bifenon; 1
+            LF-4; 400 Logfile
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>LF-4-Paritydrill</h6>
-          <img class="img-thumbnail" src="" alt="LF-4-Paritydrill">
+          <img class="img-thumbnail" src="" alt="LF-4-Paritydrill" />
           <p>
-            Károkozás: 230 pont/lövés/db <br>
-            Bónusz: +5 sebzéspont, csak PvE-ben <br>
-            Összeszerelhető. Költség: 160 Kihalon; 300 Tetratrin; 350 Bifenon; 1 LF-4; 400 Logfile
+            Károkozás: 230 pont/lövés/db <br />
+            Bónusz: +5 sebzéspont, csak PvE-ben <br />
+            Összeszerelhető. Költség: 160 Kihalon; 300 Tetratrin; 350 Bifenon; 1
+            LF-4; 400 Logfile
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>LF-4-Magmadrill</h6>
-          <img class="img-thumbnail" src="" alt="LF-4-Magmadrill">
+          <img class="img-thumbnail" src="" alt="LF-4-Magmadrill" />
           <p>
-            Károkozás: 230 pont/lövés/db <br>
-            Bónusz: +5 sebzéspont, csak PvP-ben <br>
-            Összeszerelhető. Költség: 160 Kihalon; 300 Tetratrin; 350 Bifenon; 1 LF-4; 400 Logfile
+            Károkozás: 230 pont/lövés/db <br />
+            Bónusz: +5 sebzéspont, csak PvP-ben <br />
+            Összeszerelhető. Költség: 160 Kihalon; 300 Tetratrin; 350 Bifenon; 1
+            LF-4; 400 Logfile
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>Prométeusz lézer</h6>
-          <img class="img-thumbnail" src="" alt="Prométeusz lézer">
+          <img class="img-thumbnail" src="" alt="Prométeusz lézer" />
           <p>
-            Károkozás: 210 pont/lövés/db,5 másodpercenként további 200-at sebez <br>
-            Összeszerelhető: <br>
-            Költség: 75 Zsákmánykulcs, 200 000 000 kredit, 15 000 UCB-100, 2500 RSB-75, 6000 rinusk
+            Károkozás: 210 pont/lövés/db,5 másodpercenként további 200-at sebez
+            <br />
+            Összeszerelhető: <br />
+            Költség: 75 Zsákmánykulcs, 200 000 000 kredit, 15 000 UCB-100, 2500
+            RSB-75, 6000 rinusk
           </p>
-        </div> 
-        <br>
+        </div>
+        <br />
         <div>
           <h6>Kaukázus lézer</h6>
-          <img class="img-thumbnail" src="" alt="Kaukázus">
+          <img class="img-thumbnail" src="" alt="Kaukázus" />
           <p>
-            Károkozás: 200 <br>
-            5 másodpercenként további 100 bónusz sebzést okoz <br>
+            Károkozás: 200 <br />
+            5 másodpercenként további 100 bónusz sebzést okoz <br />
             Bónusz: +15% NPC-sebzés
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>AA-1 lézer</h6>
-          <img class="img-thumbnail" src="" alt="AA-1">
+          <img class="img-thumbnail" src="" alt="AA-1" />
           <p>
-            Ez az MI-ellenes lézerágyú, amelyet úgy fejlesztettek ki, hogy különösen hatékony legyen az MI-hajók ellen, 250 sebzést <br>
-            okoz az MI-ellenfeleknek, miközben továbbra is 175-öt sebez más hajókon
+            Ez az MI-ellenes lézerágyú, amelyet úgy fejlesztettek ki, hogy
+            különösen hatékony legyen az MI-hajók ellen, 250 sebzést <br />
+            okoz az MI-ellenfeleknek, miközben továbbra is 175-öt sebez más
+            hajókon
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>P.E.T. AAP-1 lézer</h6>
-          <img class="img-thumbnail" src="" alt="P.E.T. AAP-1">
+          <img class="img-thumbnail" src="" alt="P.E.T. AAP-1" />
           <p>
-            Ez az MI-ellenes P.E.T. lézerágyú, amelyet úgy fejlesztettek ki, hogy különösen hatékony legyen az MI-hajók ellen, 500 <br>
-            sebzést okoz az MI-ellenfelének, 225-öt normál NPC-kre, miközben továbbra is 175-öt sebez más hajókon. Hatalmas pusztító <br>
-            ereje miatt nem biztonságos emberi hajókon használni, és csak P.E.T.-ekre szerelhető fel. Ha egy hajóra vagy drónra <br>
-            próbálod meg felszerelni, akkor hibaüzenetet kapsz. Eventek alkalmával összeszerelhető mindkettő.
+            Ez az MI-ellenes P.E.T. lézerágyú, amelyet úgy fejlesztettek ki,
+            hogy különösen hatékony legyen az MI-hajók ellen, 500 <br />
+            sebzést okoz az MI-ellenfelének, 225-öt normál NPC-kre, miközben
+            továbbra is 175-öt sebez más hajókon. Hatalmas pusztító <br />
+            ereje miatt nem biztonságos emberi hajókon használni, és csak
+            P.E.T.-ekre szerelhető fel. Ha egy hajóra vagy drónra <br />
+            próbálod meg felszerelni, akkor hibaüzenetet kapsz. Eventek
+            alkalmával összeszerelhető mindkettő.
           </p>
         </div>
-        <br>
+        <br />
         <div>
           <h6>Asmodeus lézer</h6>
-          <img class="img-thumbnail" src="" alt="Asmodeus">
+          <img class="img-thumbnail" src="" alt="Asmodeus" />
           <p>
-            Egy lézer, amelyet a csata vére fest vörösre. Ez a brutális fegyver annál erősebb lesz, minél több NPC-t semmisítesz <br>
-            meg, és minden egyes győzelem tovább pecsételi a megmaradt ellenségeid sorsát. <br>
-            
-            Az AM-L képessége minden NPC megsemmisítésével (legfeljebb öt alkalommal) bizonyos ideig növeli az NPC-hajóknak okozott <br>
-            sebzést, minden felszerelt Asmodeus lézerrel. Ezt a képességet nem kell saját kezűleg aktiválni. <br>
-            
-            Asmodeus lézer (AM-L) statisztikák: <br>
-            Az alapsebzés 205 <br>
-            Az alábbi táblázat mutatja azt a sebzést, amelyet minden egyes NPC-megsemmisítés után összegyűjthet (a korábbi
-            növelésekkel hozzáadva) <br>
-            Vedd figyelembe, hogy a növelés csak csak az AM-L alapsebzésére vonatkozik, amely jelenleg csak a hajón van felszerelve <br>
-            Ez azt jelenti, hogy minél több AM-L van felszerelve, annál erősebb a hatás <br>
-            Csak alapsebzésre vonatkozik, tehát nem fokozza más forrásból származó sebzést (pl. NPC boosterek stb.) <br>
-            Bónusz AMT buff– További sebzés-növelés a képességekhez, ha legalább 3 AM-L-rel felszerelt <br>
-            Alap időtartam – Meddig tart a buff (az első NPC megsemmisítésekor) <br>
-            Időtartam növelése – A buff időtartamának további növelése a következő NPC- megsemmisítésekor
+            Egy lézer, amelyet a csata vére fest vörösre. Ez a brutális fegyver
+            annál erősebb lesz, minél több NPC-t semmisítesz <br />
+            meg, és minden egyes győzelem tovább pecsételi a megmaradt
+            ellenségeid sorsát. <br />
+
+            Az AM-L képessége minden NPC megsemmisítésével (legfeljebb öt
+            alkalommal) bizonyos ideig növeli az NPC-hajóknak okozott <br />
+            sebzést, minden felszerelt Asmodeus lézerrel. Ezt a képességet nem
+            kell saját kezűleg aktiválni. <br />
+
+            Asmodeus lézer (AM-L) statisztikák: <br />
+            Az alapsebzés 205 <br />
+            Az alábbi táblázat mutatja azt a sebzést, amelyet minden egyes
+            NPC-megsemmisítés után összegyűjthet (a korábbi növelésekkel
+            hozzáadva) <br />
+            Vedd figyelembe, hogy a növelés csak csak az AM-L alapsebzésére
+            vonatkozik, amely jelenleg csak a hajón van felszerelve <br />
+            Ez azt jelenti, hogy minél több AM-L van felszerelve, annál erősebb
+            a hatás <br />
+            Csak alapsebzésre vonatkozik, tehát nem fokozza más forrásból
+            származó sebzést (pl. NPC boosterek stb.) <br />
+            Bónusz AMT buff– További sebzés-növelés a képességekhez, ha legalább
+            3 AM-L-rel felszerelt <br />
+            Alap időtartam – Meddig tart a buff (az első NPC megsemmisítésekor)
+            <br />
+            Időtartam növelése – A buff időtartamának további növelése a
+            következő NPC- megsemmisítésekor
           </p>
         </div>
-        <br>
-        <div>
-
-        </div>
+        <br />
+        <div></div>
       </div>
     </section>
     <script
