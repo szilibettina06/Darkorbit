@@ -7,24 +7,32 @@ html,body{
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .nav-background{
-        background-image: url("../resources/nav-background.png");
-        height: 100vh;
-        background-position: center;
-        background-size: cover;
+    background-image: url("../resources/nav-background.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .information-background{
     background-image: url("../resources/information-background.jpg");
     height: auto;
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #information-background {
     background-image: url("../resources/information-background.jpg");
     height: auto;
     background-position: center;
-    /* background-size: cover;  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .text{
     color: #ffffff;
