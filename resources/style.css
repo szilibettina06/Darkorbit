@@ -6,7 +6,7 @@ html,body{
     background-image: url("../resources/index-background.jpg");
     height: 100vh;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -14,23 +14,23 @@ html,body{
     background-image: url("../resources/nav-background.png");
     height: 100vh;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .information-background{
     background-image: url("../resources/information-background.jpg");
-    /* height: auto; */
+    height: auto;
     background-position: center;
-    background-size: cover; 
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 #information-background {
     background-image: url("../resources/information-background.jpg");
-    /* height: auto; */
+    height: auto;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
