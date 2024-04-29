@@ -54,9 +54,7 @@ body {
     margin-right: 10%; 
     text-align: center;
 }
-#li{
-    list-style: none;
-}
+
 .line{
     color: #ffffff;
    
@@ -75,6 +73,7 @@ video{
 .color-background{
     background-color: rgb(99, 96, 96);
 }
+/* 
 .btn {
     border: none;
     color: #4169E1;
@@ -121,9 +120,9 @@ video{
     background-color: transparent;
     color: grey;
     border-radius: 50px;
-}
+} */
 
-.btn-search {
+/* .btn-search {
     text-align: center;
     margin: 5px;
     padding: 10px;
@@ -146,7 +145,8 @@ video{
     width: 200px;
     border-radius: 25px;
     border-color: black;
-}
+} 
+*/
 #regulations-background{
     background-image: url("./regulations-background.jpg");
     background-position: center;
