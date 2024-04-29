@@ -164,10 +164,10 @@ video{
     text-align: center;
     
 }
-.search-bar [list]::-webkit-list-button,
+/* .search-bar [list]::-webkit-list-button,
 .search-bar [list]::-webkit-calendar-picker-indicator {
     display: none !important;
-}
+} */
 .nav_img{
     height: 95vh;
     width: 100vh;
@@ -181,8 +181,8 @@ video{
 
 /* Új cucc */
 #form {
-    width: 400px;
-    margin: 15vh auto 0 auto;
+    width: 500px;
+    margin: 10vh auto 0 auto;
     border-radius: 5px;
     padding: 30px;
     background-color: whitesmoke;
@@ -226,4 +226,19 @@ h1 {
     margin: 20px 0px;
     cursor: pointer;
     font-size: 20px;
+}
+@media screen and (max-width: 520px){
+    #form{
+        width: auto;
+        margin: 15vh auto 0 auto;
+        border-radius: 5px;
+        padding: 30px;
+    }
+    
+}
+
+#back-arrow{
+    color: white;
+    margin: 15px auto 0 auto;
+    font-size: 40px;
 }
