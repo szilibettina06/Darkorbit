@@ -242,3 +242,46 @@ h1 {
     margin: 15px auto 0 auto;
     font-size: 40px;
 }
+.btn{
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2é0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-full {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: skyblue;
+    border: 2px solid blue;
+    border-radius: 50px;
+}
+
+.btn-full:hover {
+    border: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+    border-radius: 50px;
+}
+.btn-outline {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 50px;
+}
+
+.btn-outline:hover {
+    border: 2px solid blue;
+    background-color: blue;
+    color: skyblue;
+    border-radius: 50px;
+}
