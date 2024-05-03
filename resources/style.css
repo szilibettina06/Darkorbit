@@ -1,9 +1,6 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(121, 32, 153, 1) 86%);
-    background-attachment: fixed;
     font-family: Verdana, sans-serif;
 }
 
@@ -178,70 +175,6 @@ video{
     background-color: rgba(0, 0, 0, 35%);
 }
 
-
-/* Új cucc */
-#form {
-    width: 500px;
-    margin: 10vh auto 0 auto;
-    border-radius: 5px;
-    padding: 30px;
-    background-color: whitesmoke;
-}
-
-h1 {
-    text-align: center;
-    color: #792099;
-}
-
-.input-group {
-    display: flex;
-    /* egymás allá teszi*/
-    flex-direction: column;
-    margin-bottom: 15px;
-
-}
-
-.input-group input {
-    border-radius: 5px;
-    font-size: 20px;
-    margin-top: 15px;
-    padding: 10px;
-    border: 1px solid skyblue;
-}
-
-.input-group .error {
-    color: red;
-    margin-top: 5px;
-    font-size: 15px;
-
-}
-
-#form button {
-    background-color: #792099;
-    color: white;
-    border: 1px solid #792099;
-    border-radius: 5px;
-    width: 100%;
-    padding: 10px;
-    margin: 20px 0px;
-    cursor: pointer;
-    font-size: 20px;
-}
-@media screen and (max-width: 520px){
-    #form{
-        width: auto;
-        margin: 15vh auto 0 auto;
-        border-radius: 5px;
-        padding: 30px;
-    }
-    
-}
-
-#back-arrow{
-    color: white;
-    margin: 15px auto 0 auto;
-    font-size: 40px;
-}
 .btn{
     border: none;
     padding: 20px 40px;
