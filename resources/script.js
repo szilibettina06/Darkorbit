@@ -60,7 +60,7 @@ function validateInputs() {
     }
     if (confirmpasswordVal === '') {
         success = false;
-        setError(confirmpasswordpassword, 'Password is required');
+        setError(confirmpassword, 'Password is required');
     }
     else if (confirmpasswordVal!=passwordVal) {
         success = false;
