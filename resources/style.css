@@ -220,11 +220,9 @@ video{
 }
 
 #main-content{
-    margin-top: 20%;
-    margin-left: 40%;
-    margin-right: auto;
-    margin-bottom: auto;
+    margin: 40vh auto 0 auto;
 }
 #main-content h2{
     color: #ffffff;
+    font-size: 40px;
 }

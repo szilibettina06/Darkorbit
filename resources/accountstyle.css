@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(121, 32, 153, 1) 86%);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgb(58, 32, 153) 86%);
     background-attachment: fixed;
     font-family: Verdana, sans-serif;
 }
@@ -19,7 +19,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #792099;
+    color: #4a2099;
 }
 
 .input-group {
@@ -46,9 +46,9 @@ h1 {
 }
 
 #form button {
-    background-color: #792099;
+    background-color: #4a2099;
     color: white;
-    border: 1px solid #792099;
+    border: 1px solid #4a2099;
     border-radius: 5px;
     width: 100%;
     padding: 10px;
