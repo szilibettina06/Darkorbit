@@ -222,7 +222,7 @@ video{
 #main-content{
     margin: 40vh auto 0 auto;
 }
-#main-content h2{
+#main-content h1{
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
 }
