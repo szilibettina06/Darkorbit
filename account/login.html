@@ -37,7 +37,14 @@
           <input type="password" id="password" name="password" />
           <div class="error"></div>
         </div>
-        <button type="submit">Belépés</button>
+        <button class="open_btn" type="submit" onclick="open_popupwindow()">Belépés</button>
+        <div class="popup_background" id="popup_background"></div>
+        <div class="popup" id="popup">
+          <button class="close_btn"  id="delete" title="button" onclick="close_popupwidow()">X</button>
+          <h2 id="alert_message"></h2>
+          <img src="./popup_pictures.jpg" alt="cat">
+         
+        </div>
       </form>
     </div>
     <script

@@ -20,7 +20,9 @@
     <div class="container">
       <div class="container">
         <a href="../index.html">
-          <span id="back-arrow" class="material-symbols-outlined"> arrow_back </span>
+          <span id="back-arrow" class="material-symbols-outlined">
+            arrow_back
+          </span>
         </a>
       </div>
       <form action="" id="form">
@@ -45,7 +47,31 @@
           <input type="password" id="confirmpassword" name="confirmpassword" />
           <div class="error"></div>
         </div>
-        <button type="submit" onclick="welcome()">Regisztráció</button>
+        <button class="open_btn" type="submit" onclick="open_popupwindow()">
+          Regisztráció
+        </button>
+        <div class="popup_background" id="popup_background"></div>
+        <div class="popup" id="popup">
+          <h2 id="alert_message"></h2>
+          <p>
+            Üdvözöllek a The Legends klánban! Itt nincsenek szinthez köttöt
+            követelmények ezért szivesen fogadjuk a kezdő magyar játékosokat, de
+            itt is vannak szabályok amit be kell tartani. A klán feladata az
+            ,hogy minéltöbb harcibázist épitsünk és azokat lehető leghoszabb
+            ideig meg kell tartanunk illetve diplomáciát kössünk más klánokal
+            (klán ajánlások privátba jöhetnek). Cél az, hogy segítsük egymást a
+            gyorsabb fejödésben! Remélem jól érzitek majd magatokat itt
+            közöttünk!
+          </p>
+          <button
+            class="close_btn"
+            id="delete"
+            title="button"
+            onclick="close_popupwidow()"
+          >
+            Tovább
+          </button>
+        </div>
       </form>
     </div>
     <script

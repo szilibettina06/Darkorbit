@@ -1,6 +1,6 @@
-function welcome(){
-    alert("Üdvözöllek a The Legends klánban! Itt nincsenek szinthez köttöt követelmények ezért szivesen fogadjuk a kezdő magyar játékosokat, de itt is vannak szabályok amit be kell tartani. A klán feladata az ,hogy minéltöbb harcibázist épitsünk és azokat lehető leghoszabb ideig meg kell tartanunk illetve diplomáciát kössünk más klánokal (klán ajánlások privátba jöhetnek). Cél az, hogy segítsük egymást a gyorsabb fejödésben! Remélem jól érzitek majd magatokat itt közöttünk!");
-}
+// function welcome(){
+//     alert("Üdvözöllek a The Legends klánban! Itt nincsenek szinthez köttöt követelmények ezért szivesen fogadjuk a kezdő magyar játékosokat, de itt is vannak szabályok amit be kell tartani. A klán feladata az ,hogy minéltöbb harcibázist épitsünk és azokat lehető leghoszabb ideig meg kell tartanunk illetve diplomáciát kössünk más klánokal (klán ajánlások privátba jöhetnek). Cél az, hogy segítsük egymást a gyorsabb fejödésben! Remélem jól érzitek majd magatokat itt közöttünk!");
+// }
 
 const form = document.querySelector('#form');
 const username = document.querySelector('#username');
@@ -97,3 +97,17 @@ form.addEventListener('submit', (e) => {//event handler
 
     }
 });
+function open_popupwindow() {
+    if (validateInputs()) {
+        document.getElementById("popup_background").style.display = "block";
+        document.getElementById("popup").style.display = "block";
+        document.getElementById("alert_message").innerText =( "Gratulálok " + username.value + " a sikeres regisztráciohoz!");
+    }
+    
+    
+}
+function close_popupwidow() {
+    document.getElementById("popup_background").style.display = "none";
+    document.getElementById("popup").style.display = "none";
+    form.reset();
+}
