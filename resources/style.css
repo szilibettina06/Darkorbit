@@ -12,6 +12,31 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/* nav{
+    background-color: rgba(1, 5, 36, 0.5)
+} */
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    padding: 15px;
+    list-style: none;
+}
+nav a:hover {
+    border-bottom: 3px solid #00ccb1;
+    color: antiquewhite;
+    padding-bottom: 5px;
+    transition: 0.1s;
+}
+
+nav a,
+nav a:visited,
+a:active {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 .nav-background{
     background-image: url("../resources/nav-background.png");
     height: 100vh;
@@ -20,6 +45,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+/* 
 .information-background{
     background-image: url("../resources/information-background.jpg");
     height: auto;
@@ -35,7 +61,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+} */
 .text{
     color: #ffffff;
     margin-top: 40px;
