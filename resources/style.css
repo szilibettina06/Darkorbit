@@ -12,14 +12,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-/* nav{
+ nav{
     background-color: rgba(1, 5, 36, 0.5)
-} */
+} 
 
 
 nav a:hover {
     border-bottom: 3px solid #00ccb1;
-    color: antiquewhite;
     padding-bottom: 5px;
     transition: 0.1s;
 }
@@ -39,7 +38,7 @@ a:active {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-/* 
+
 .information-background{
     background-image: url("../resources/information-background.jpg");
     height: auto;
@@ -249,4 +248,10 @@ video{
 #back-mainpage{
     float: right;
     color: lightslategray;
+}
+.dropdown-menu{
+    background-color: black !important; 
+}
+.dropdown-menu,.dropdown-item:hover{
+    background-color: black;
 }
